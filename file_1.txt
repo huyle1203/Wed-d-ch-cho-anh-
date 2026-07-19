@@ -1,0 +1,24 @@
+film-translator-web/
+│
+├── frontend/                  # React + Tailwind (Deploy Vercel)
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── services/
+│       └── App.jsx
+│
+├── backend/                   # FastAPI (Python) - Xử lý video, AI, user, admin
+│   ├── main.py
+│   ├── database.py
+│   ├── bilibili_scraper.py
+│   ├── subtitle_processor.py
+│   ├── tts_engine.py
+│   ├── payment_handler.py
+│   └── requirements.txt
+│
+├── supabase/                  # Schema DB
+│   └── schema.sql
+│
+├── README.md
+└── docker-compose.yml         # Tối ưu cho Render/Railway

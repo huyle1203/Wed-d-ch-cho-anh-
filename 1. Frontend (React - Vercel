@@ -1,0 +1,6 @@
+Deploy lên Vercel: `vercel --prod`
+
+### 2. Backend (FastAPI - Render)
+- Tạo tài khoản Render.com
+- Tạo Web Service từ thư mục `backend`
+- Cài đặt các biến môi trường:
